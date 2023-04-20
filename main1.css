@@ -21,6 +21,7 @@ header
     width: 100%;
     background: #fff;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
 }
 .logo
 {
@@ -119,4 +120,16 @@ header
 {
     color: #fff;
     background: #9051ff;
+}
+#home
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #E4F9F5;
+    font-size: 18vw;
+    font-weight: 700; 
+    color: #9051ff;
 }
